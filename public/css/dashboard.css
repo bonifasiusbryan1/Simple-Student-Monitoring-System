@@ -1,0 +1,187 @@
+.container-profile{
+    padding: 0.5em 1em;
+    background: linear-gradient(#9DB2BF, #9DB2BF 45%, #F6F4EB 45%, #F6F4EB);
+    border-radius: 0.45em;
+}
+
+.container-bi{
+    height: 4em;
+    width: 4em;
+}
+
+.fotoprofile{
+    display: flex;
+    align-items: center;
+    margin-right: 1em;
+    height: 5em;
+}
+
+.fotoprofile img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+.container a{
+    text-decoration: none;
+    color: #F6F4EB;
+    transition: color 0.4s;
+}
+
+.container a:hover{
+    color: #2E4374;
+}
+
+.edit-profile{
+    font-size: 0.9em;
+    height: fit-content;
+    max-height: 100%;
+}
+
+.grid .container{
+    padding: 1em 1.3em;
+    background-color: #F6F4EB;
+    border-radius: 0.45em;
+}
+
+.statusAkademik{
+    text-align: left;
+}
+
+.grid-informasi{
+    margin: 1em 0;
+    font-size: 0.85em;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap : 0.5em;
+}
+
+.grid-informasi .angkatan{
+    border: solid #999; 
+    border-width: 0 0.75px;
+}
+
+.grid{
+    font-size: 0.85em;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1em;
+}
+
+.grid-menu{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1em;
+}
+
+.grid-menu a{
+    background-color: #F6F4EB;
+    color: #000;
+    padding: 1em;
+    text-align: none;
+    border-radius: 0.45em;
+    outline: none;
+    transition: background-color 0.4s, color 0.3s;
+}
+
+.grid-menu a:hover{
+    background-color: #9DB2BF;
+    color: #F6F4EB;
+}
+
+.grid-semester{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1em;
+}
+
+.grid-semester .grid-item{
+    color: #fff;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.45em;
+    transition: 0.3s background-color;
+}
+
+.red{
+    background-color: rgb(255, 100,100);
+}
+
+.green{
+    background-color: rgb(115, 192, 128);
+}
+
+.green:hover{
+    background-color: rgb(79, 193, 98);
+}
+
+.bluelight{
+    background-color: #acc6e1;
+}
+
+.blue{
+    background-color: #749BC2;
+}
+
+.orange{
+    background-color: #e2a753;
+}
+
+.blue:hover{
+    background-color: #6594c3;
+}
+
+.orange:hover{
+    background-color: #e39f3f;
+}
+
+.modal-body .smt-modal{
+    font-size: 1.5em;
+    font-weight: 800;
+    position: absolute;
+    top: 0.5em;
+    right: 2em;
+}
+
+.modal-body .irs-modal{
+    font-size: 2.5em;
+    font-weight: 1000;
+}
+
+.modal-body .modal-detail{
+    font-size: 0.75em;
+    padding: 0.5em;
+    background-color: #6594c3;
+    color: #fff;
+    border-radius: 0.25em;
+    transition: background-color 0.5s;
+}
+
+.modal-body .modal-detail:hover{
+    background-color: #537ba2;
+    color: #fff;
+}
+
+.btn-custom-lihat{
+    font-size: 0.9em;
+    text-align: center;
+    color: #F6F4EB;
+    background-color: rgb(70, 107, 144);
+    padding: 0.5em;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.45em;
+    transition: background-color 0.5s;
+}
+
+.btn-custom-lihat:hover{
+    background-color: #6594c3;
+}

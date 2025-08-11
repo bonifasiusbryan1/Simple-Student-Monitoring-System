@@ -1,0 +1,156 @@
+.container .card{
+    border-radius: 0.45em;
+    border: 1px solid #dedede;
+}
+
+.card-header{
+    padding: 1.5em;
+    color: #F6F4EB;
+    background-color: #9DB2BF;
+    border-radius: 1em;
+}
+
+.statusText {
+    display: inline-block;
+    font-size: 0.85em;
+    padding: 0.5em;
+    color: #F6F4EB;
+    border: none;
+    border-radius: 0.65em;
+}
+
+.red{
+    border: 2px solid rgb(255, 100,100);
+    color: rgb(255, 100,100);
+}
+
+.orange{
+    border: 2px solid #e29c3a;
+    color: #d48009;
+}
+
+.green{
+    border: 2px solid rgb(115, 192, 128);
+    color: rgb(115, 192, 128);
+}
+
+.grid-identitas{
+    font-size: 0.85em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.grid-m-pkl{
+    font-size: 0.85em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.5em;
+}
+
+.grid-item label{
+    padding-left: 0.5em;
+}
+
+.grid-item input{
+    display: block;
+    width: 100%;
+    background-color: #F6F4EB;
+    padding: 0.65em 1em;
+    border: none;
+    border-radius: 0.65em;
+}
+
+.grid-item .approved{
+    background-color: rgb(223, 220, 212);
+    padding: 0.65em;
+    height: 2.85em;
+    border-radius: 0.65em;
+}
+
+.grid-item select{
+    display: block;
+    width: 100%;
+    background-color: #F6F4EB;
+    padding: 0.65em;
+    border: none;
+    border-radius: 0.65em;
+}
+
+.grid-item input:focus{
+    outline: none;
+    border: 2px solid #9DB2BF
+}
+
+.grid-item span{
+    font-size: 0.75em;
+    vertical-align: text-top;
+}
+
+.grid-item-last a, .grid-item-m a{
+    display: block;
+    width: 35%;
+    text-align: center;
+    color: #F6F4EB;
+    background-color: #7c95a5;
+    padding: 0.5em;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.45em;
+    transition: background-color 0.5s;
+}
+
+.btn-custom-simpan{
+    width: 35%;
+    background-color: #e39f3f;
+}
+
+.btn-custom-simpan-op{
+    width: 55%;
+    background-color: #e39f3f;
+}
+
+.grid-item-last a{
+    width: 40%;
+}
+
+.grid-item-m a.btn-custom-batal{
+    width: 20%
+}
+
+.grid-item-m a.btn-custom-batal-op{
+    width: 35%;
+}
+
+.grid-item-last a.btn-custom-batal,.grid-item-last a.btn-custom-verifikasi{
+    width: 40%;
+}
+
+.btn-custom-simpan, .btn-custom-simpan-op, .btn-custom-modal{
+    text-align: center;
+    color: #F6F4EB;
+    padding: 0.5em;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.45em;
+    transition: background-color 0.5s;
+}
+
+.btn-cm-simpan{
+    background-color: #e39f3f;
+}
+
+.btn-cm-batal{
+    background-color: #7c95a5;
+}
+
+.btn-cm-batal:hover, .btn-custom-modal:hover, .grid-item-last a:hover, .grid-item-m a:hover{
+    background-color: #9DB2BF;
+}
+
+.btn-cm-simpan:hover, .btn-custom-simpan:hover, .btn-custom-simpan-op:hover{
+    background-color: #EEB76B;
+}

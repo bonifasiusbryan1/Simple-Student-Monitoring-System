@@ -1,0 +1,72 @@
+.kembali a{
+    color: #DA0C81;
+    font-size: 0.85em;
+    text-decoration: none;
+    transition: color 0.4s;
+}
+
+a .geser{
+    transition: transform 0.4s;
+}
+
+.kembali a:hover{
+    color: rgba(218, 12, 129, 0.8);
+}
+
+.kembali a:hover .geser{
+    transform: translateX(-5px);
+}
+
+.card-header{
+    padding: 1.5em;
+    font-size: 1em;
+    font-weight: 800;
+    color: #fff;
+    background-color: #9DB2BF;
+    border-radius: 1em;
+}
+
+.card-body{
+    border-radius: 0 0 1em 1em;
+}
+
+
+th.angkatan, th.status{
+    color: #749BC2;
+    font-size: 1.1em;
+    font-weight: 1000;
+}
+
+th.status{
+    vertical-align: middle;
+}
+
+td a{
+    display: block;
+    color: #000;
+    padding: 0.5em;
+    text-decoration: none;
+    outline: none;
+    transition: background-color 0.6s;
+}
+
+td a:hover{
+    background-color: #eee;
+}
+
+a.btn-cetak{
+    font-size: 0.85em;
+    color: #fff;
+    background-color: #749BC2;
+    padding: 0.5em;
+    text-align: none;
+    text-decoration: none;
+    border-radius: 0.45em;
+    outline: none;
+    transition: background-color 0.6s;
+}
+
+a.btn-cetak:hover{
+    background-color: #9DB2BF;
+}
+

@@ -1,0 +1,147 @@
+.container{
+    outline: none;
+    border-radius: 0.45em;
+    border: 1px solid #dedede;
+    margin-bottom: 3em;
+}
+
+.card{
+    width: 100%;
+    border: none;
+}
+
+.card-header{
+    padding: 1.5em;
+    color: #F6F4EB;
+    background-color: #9DB2BF;
+    border-radius: 1em;
+}
+
+.card-body{
+    font-size: 0.85em;
+}
+
+.generate select{
+    color: rgba(0,0,0,0.7);
+    background-color: #F6F4EB;
+    padding: 0.5em;
+    margin-left: 0.25em;
+    border: 1px solid #bebebe;
+    border-radius: 0.65em;
+}
+
+.item{
+    margin-bottom: 1.5em;
+}
+
+.item label{
+    padding-left: 0.5em;
+} 
+
+.item a{
+    color: rgb(36, 137, 199);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.item a:hover{
+    color: rgb(26, 99, 144);
+    text-decoration: underline;
+}
+
+.item select{
+    display: block;
+    width: 100%;
+    background-color: #F6F4EB;
+    padding: 0.75em;
+    border: none;
+    border-radius: 0.65em;
+}
+
+.item input{
+    display: block;
+    width: 100%;
+    background-color: #F6F4EB;
+    padding: 0.75em;
+    border: none;
+    border-radius: 0.65em;
+}
+
+.item input:focus{
+    outline: none;
+    border: 2px solid #9DB2BF
+}
+
+.item .text-danger{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    margin-left: 0.5em;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.btn-custom-simpan, .btn-cm-simpan, .btn-custom, .table a, .modal-footer a, .btn-custom-back{
+    text-align: center;
+    color: #F6F4EB;
+    padding: 0.5em;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.45em;
+    transition: background-color 0.5s;
+}
+
+.btn-custom-simpan{
+    width: 30%;
+    background-color: #e39f3f;
+}
+
+.btn-cm-simpan, .btn-custom-reset, .modal-footer a{
+    background-color: #e39f3f;
+}
+
+.btn-custom-del, .modal-footer-2 a{
+    background-color: rgb(255, 100,100);
+}
+
+.btn-custom-back{
+    border: 1px solid rgb(255, 100,100);
+    color: rgb(255, 100,100);
+    transition: color 0.5s;
+}
+
+.table a{
+    background-color: #749BC2;
+}
+
+.btn-cm-batal{
+    text-align: center;
+    background-color: #7c95a5;
+    color: #F6F4EB;
+    padding: 0.5em;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.45em;
+    transition: background-color 0.5s;
+}
+
+.btn-cm-batal:hover{
+    background-color: #9DB2BF;
+}
+
+.btn-cm-simpan:hover, .btn-custom-simpan:hover, .btn-custom-reset:hover, .modal-footer a:hover{
+    background-color: #EEB76B;
+} 
+
+.table a:hover{
+    background-color: #578cc2;
+}
+
+.btn-custom-del:hover .modal-footer-2 a:hover{
+    background-color: rgb(255, 50,50);
+}
+
+.btn-custom-back:hover{
+    background-color: rgb(255, 50,50);
+    color: #fff;
+}

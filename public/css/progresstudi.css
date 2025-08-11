@@ -1,0 +1,71 @@
+.container .card:first-child{
+    border-radius: 0.45em;
+    border: 1px solid #dedede;
+}
+
+.card-header{
+    padding: 1.5em;
+    color: #F6F4EB;
+    background-color: #9DB2BF;
+    border-radius: 1em;
+}
+
+.card-body{
+    font-size: 0.9em;
+}
+
+.grid-progresstudi{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    font-size: 1em;
+}
+
+.grid-angkatan, .grid-pilih-menu{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    font-size: 1em;
+}
+
+
+.grid-angkatan select, .grid-pilih-menu select{
+    display: block;
+    width: 100%;
+    line-height: 1px;
+    background-color: #F6F4EB;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.65em;
+    grid-column: span 3;
+}
+
+.grid-pilih-menu select{
+    grid-column: span 2;
+}
+
+.btn-custom-back{
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5em;
+    border: 1px solid rgb(255, 100,100);
+    color: rgb(255, 100,100);
+    border-radius: 0.45em;
+    transition: color 0.5s;
+}
+
+.download{
+    color: #098bc3;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.download:hover{
+    color: #054c7e;
+}
+
+.mahasiswanull{
+    display: none;
+    padding-left: 0.5em;
+    color: rgb(255, 100,100);
+}

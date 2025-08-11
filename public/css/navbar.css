@@ -1,0 +1,62 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    height: 4em;
+    background-color: #749BC2;
+}
+
+.d-flex img{
+    height: 2.5em;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.btn-custom{
+    border: none;
+    background-color: transparent;
+}
+
+.dropdown-toggle{
+    color: #F6F4EB;
+    transition: color 0.5s;
+}
+
+.dropdown-toggle:hover, .dropdown-toggle.show{
+    color: #2E4374;
+}
+
+.dropdown label{
+    font-size: 0.8em;
+}
+
+.dropdown label:hover{
+    cursor: pointer;
+}
+
+.dropdown-menu{
+    padding: 0.15em;
+    margin: 0;
+    border-radius: 0.25em;
+}
+
+.dropdown-divider{
+    margin: 0;
+}
+
+.dropdown-item{
+    font-size: 0.8em;
+    padding: 0.5em 1em;
+    transition: background-color 0.6s, color 0.6s;
+}
+
+.dropdown-item .bi{
+    padding: 0;
+    margin: 0 0.5em 0 0;
+}
+
+.dropdown-item:hover{
+    color: #F6F4EB;
+    background-color: #749BC2;
+}
