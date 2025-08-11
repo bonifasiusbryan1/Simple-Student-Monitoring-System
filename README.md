@@ -20,7 +20,7 @@
 
 > **My first group project** showcasing academic progress monitoring with multi-role authentication system.
 
-This comprehensive student monitoring system provides a seamless experience for tracking academic progress across multiple user roles. Built with simple views, it offers intuitive interfaces for students, advisors, departments, and system operators.
+This comprehensive student monitoring system provides a seamless experience for tracking academic progress across multiple user roles. Built with simple views, it offers intuitive interfaces for mahasiswa, doen wali, departemen, and operator.
 
 ### 🎯 Key Features
 
