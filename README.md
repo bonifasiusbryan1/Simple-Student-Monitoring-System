@@ -2,7 +2,7 @@
 
 <div align="center">
   
-  ![Logo UNDIP](public/asset/img/logo-undip.png)
+  <img src="public/asset/img/logo-undip.png" alt="Logo UNDIP" width="80" />
   
   ### *A comprehensive Laravel-MySQL student progress monitoring platform*
   
