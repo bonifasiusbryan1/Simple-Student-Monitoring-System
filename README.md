@@ -6,9 +6,9 @@
   
   ### *A comprehensive Laravel-MySQL student progress monitoring platform*
   
-  [![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com/)
-  [![PHP](https://img.shields.io/badge/PHP-8.1+-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net/)
-  [![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com/)
+  [![Laravel](https://img.shields.io/badge/Laravel-10-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com/)
+  [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net/)
+  [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com/)
   [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
   
   *Inspired by UNDIP's SIAP (Sistem Informasi Akademik Universitas Diponegoro)*
@@ -21,13 +21,12 @@
 
 > **My first group project** showcasing academic progress monitoring with multi-role authentication system.
 
-This comprehensive student monitoring system provides a seamless experience for tracking academic progress across multiple user roles. Built with modern web technologies, it offers intuitive interfaces for students, advisors, departments, and system operators.
+This comprehensive student monitoring system provides a seamless experience for tracking academic progress across multiple user roles. Built with simple views, it offers intuitive interfaces for students, advisors, departments, and system operators.
 
 ### 🎯 Key Features
 
 - 📊 **Real-time Progress Tracking** - Monitor academic performance instantly
 - 👥 **Multi-Role Authentication** - Secure access for different user types
-- 📈 **Analytics Dashboard** - Comprehensive data visualization
 - 🔐 **Secure Data Management** - Robust user authentication and authorization
 - 📱 **Responsive Design** - Works seamlessly across all devices
 
@@ -151,37 +150,5 @@ Simple-Student-Monitoring-System/
 ├── 📁 routes/              # Application routes
 └── 📄 monitoring_mahasiswa.sql  # Database schema
 ```
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. 🍴 Fork the project
-2. 🌿 Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. 💾 Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. 📤 Push to the branch (`git push origin feature/AmazingFeature`)
-5. 🔄 Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-<div align="center">
-
-### 💝 Support This Project
-
-If you found this project helpful, please consider giving it a ⭐️!
-
-**Built with ❤️ for academic excellence**
-
----
-
-*© 2024 Simple Student Monitoring System. All rights reserved.*
 
 </div>
