@@ -34,8 +34,31 @@ I was responsible for **designing the database schema** and **co-developing the 
 
 ## 🚀 Installation Guide
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/bonifasiusbryan1/Simple-Student-Monitoring-System.git
-   cd Simple-Student-Monitoring-System
+```bash
+# 1. Clone the repository
+git clone https://github.com/bonifasiusbryan1/Simple-Student-Monitoring-System.git
+cd Simple-Student-Monitoring-System
 
+# 2. Install PHP dependencies
+composer install
+
+# 3. Install JS dependencies
+npm install
+
+# 4. Copy .env file
+cp .env.example .env
+# Windows (PowerShell)
+# copy .env.example .env
+
+# 5. Generate app key
+php artisan key:generate
+
+# 6. Run migrations & seed
+php artisan migrate --seed
+
+# 7. Create storage symlink
+php artisan storage:link
+
+# 8. Run the server
+php artisan serve
+# Access at: http://127.0.0.1:8000
