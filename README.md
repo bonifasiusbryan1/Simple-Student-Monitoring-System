@@ -16,7 +16,7 @@ The system supports **4 main roles**:
 | **Student**   | Views academic progress and personal study records. |
 | **Advisor**   | Monitors and verifies the progress of assigned students. |
 | **Department**| Oversees all students in the department. |
-| **Admin**     | Manages system data and user accounts. |
+| **Operator**     | Manages system data and user accounts. |
 
 I was responsible for **designing the database schema** and **co-developing the back-end** alongside one teammate.
 
@@ -24,11 +24,42 @@ I was responsible for **designing the database schema** and **co-developing the 
 
 ## 🛠️ Tech Stack
 
-- **Language**: PHP 8+
-- **Framework**: Laravel
+- **Language**: PHP
+- **Framework**: Laravel 10
 - **Database**: MySQL
 - **Frontend**: Blade Templates, CSS, JavaScript
 - **Others**: Bootstrap Icons
+
+---
+
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="public/screenshots/login.png" alt="Login Page" width="420"><br>
+      <sub><b>Login Page</b></sub>
+    </td>
+    <td align="center">
+      <img src="public/screenshots/mahasiswa_dashboard.png" alt="Student (Dashboard)" width="420"><br>
+      <sub><b>Student (Dashboard)</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="public/screenshots/dosenwali_dashboard.png" alt="Advisor (Dashboard)" width="280"><br>
+      <sub><b>Advisor (Dashboard)</b></sub>
+    </td>
+    <td align="center">
+      <img src="public/screenshots/departemen_rekapMahasiswa.png" alt="Department (Rekap Mahasiswa)" width="280"><br>
+      <sub><b>Department (Rekap Mahasiswa)</b></sub>
+    </td>
+    <td align="center">
+      <img src="public/screenshots/operator_progresStudi.png" alt="Operator (Progress Studi)" width="280"><br>
+      <sub><b>Operator (Progress Studi)</b></sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -68,7 +99,3 @@ php artisan storage:link
 # 🔟 Run the server
 php artisan serve
 # Access at: http://127.0.0.1:8000
-
----
-
-## 📸 Screenshots
