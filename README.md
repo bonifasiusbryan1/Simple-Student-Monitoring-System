@@ -34,13 +34,42 @@ I was responsible for **designing the database schema** and **co-developing the 
 
 ## 📸 Screenshots
 
-<p align="center">
-  <img src="public/screenshots/login.png" alt="Login Page" width="220">
-  <img src="public/screenshots/mahasiswa_dashboard.png" alt="Student Dashboard" width="220">
-  <img src="public/screenshots/dosenwali_dashboard.png" alt="Advisor Dashboard" width="220">
-  <img src="public/screenshots/departemen_rekapMahasiswa.png" alt="Department Rekap Mahasiswa" width="220">
-  <img src="public/screenshots/operator_progresStudi.png" alt="Operator Progress Studi" width="220">
-</p>
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <a href="public/screenshots/login.png">
+        <img src="public/screenshots/login.png" alt="Login Page" width="420">
+      </a><br>
+      <kbd>Login Page</kbd>
+    </td>
+    <td align="center" valign="top">
+      <a href="public/screenshots/mahasiswa_dashboard.png">
+        <img src="public/screenshots/mahasiswa_dashboard.png" alt="Student (Dashboard)" width="420">
+      </a><br>
+      <kbd>Student (Dashboard)</kbd>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <a href="public/screenshots/dosenwali_dashboard.png">
+        <img src="public/screenshots/dosenwali_dashboard.png" alt="Advisor (Dashboard)" width="280">
+      </a><br>
+      <kbd>Advisor (Dashboard)</kbd>
+    </td>
+    <td align="center" valign="top">
+      <a href="public/screenshots/departemen_rekapMahasiswa.png">
+        <img src="public/screenshots/departemen_rekapMahasiswa.png" alt="Department (Rekap Mahasiswa)" width="280">
+      </a><br>
+      <kbd>Department (Rekap Mahasiswa)</kbd>
+    </td>
+    <td align="center" valign="top">
+      <a href="public/screenshots/operator_progresStudi.png">
+        <img src="public/screenshots/operator_progresStudi.png" alt="Operator (Progress Studi)" width="280">
+      </a><br>
+      <kbd>Operator (Progress Studi)</kbd>
+    </td>
+  </tr>
+</table>
 
 ---
 
