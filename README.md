@@ -34,7 +34,7 @@ I was responsible for **designing the database schema** and **co-developing the 
 
 ## 🚀 Installation Guide
 
-bash
+```bash
 # 1️⃣ Clone the repository
 git clone https://github.com/bonifasiusbryan1/Simple-Student-Monitoring-System.git
 cd Simple-Student-Monitoring-System
