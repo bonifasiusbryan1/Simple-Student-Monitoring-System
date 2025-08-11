@@ -79,16 +79,16 @@ This comprehensive student monitoring system provides a seamless experience for 
 ### 🔐 Authentication
 <img src="public/screenshots/login.png" alt="Login Interface" width="600" />
 
-### 🎓 Student Dashboard
+### 🎓 Mahasiswa - Dashboard
 <img src="public/screenshots/mahasiswa_dashboard.png" alt="Student Portal" width="600" />
 
-### 👨‍🏫 Academic Advisor Portal
+### 👨‍🏫 Dosen Wali - Dashboard
 <img src="public/screenshots/dosenwali_dashboard.png" alt="Advisor Interface" width="600" />
 
-### 🏢 Department Overview
+### 🏢 Departemen - Rekap Mahasiswa
 <img src="public/screenshots/departemen_rekapMahasiswa.png" alt="Department Analytics" width="600" />
 
-### ⚙️ System Administration
+### ⚙️ Operator - Progress Studi
 <img src="public/screenshots/operator_progresStudi.png" alt="Admin Panel" width="600" />
 
 </div>
