@@ -35,42 +35,40 @@ I was responsible for **designing the database schema** and **co-developing the 
 ## 🚀 Installation Guide
 
 bash
-1️⃣ Clone the repository
+# 1️⃣ Clone the repository
 git clone https://github.com/bonifasiusbryan1/Simple-Student-Monitoring-System.git
 cd Simple-Student-Monitoring-System
 
-2️⃣ Install PHP dependencies
+# 2️⃣ Install PHP dependencies
 composer install
 
-3️⃣ Install JS dependencies
+# 3️⃣ Install JS dependencies
 npm install
 
-4️⃣ Copy the environment file
+# 4️⃣ Copy the environment file
 cp .env.example .env
 # Windows (PowerShell)
 # copy .env.example .env
 
-5️⃣ Configure database connection in .env
+# 5️⃣ Configure database connection in .env
 # Set DB_DATABASE to "monitoring_mahasiswa" and adjust username/password
 
-6️⃣ Create the database (MySQL example)
+# 6️⃣ Create the database (MySQL example)
 mysql -u root -p -e "CREATE DATABASE monitoring_mahasiswa;"
 
-7️⃣ Import the SQL file into the database
+# 7️⃣ Import the SQL file into the database
 mysql -u root -p monitoring_mahasiswa < monitoring_mahasiswa.sql
 
-8️⃣ Generate application key
+# 8️⃣ Generate application key
 php artisan key:generate
 
-9️⃣ Create storage symlink
+# 9️⃣ Create storage symlink
 php artisan storage:link
 
-🔟 Run the server
+# 🔟 Run the server
 php artisan serve
 # Access at: http://127.0.0.1:8000
 
-##############################################
-# 🔟  Run the server
-##############################################
-php artisan serve
-# Access at: http://127.0.0.1:8000
+---
+
+## 📸 Screenshots
