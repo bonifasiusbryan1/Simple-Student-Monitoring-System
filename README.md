@@ -34,32 +34,13 @@ I was responsible for **designing the database schema** and **co-developing the 
 
 ## 📸 Screenshots
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="public/screenshots/login.png" alt="Login Page" width="420"><br>
-      <sub><b>Login Page</b></sub>
-    </td>
-    <td align="center">
-      <img src="public/screenshots/mahasiswa_dashboard.png" alt="Student (Dashboard)" width="420"><br>
-      <sub><b>Student (Dashboard)</b></sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="public/screenshots/dosenwali_dashboard.png" alt="Advisor (Dashboard)" width="280"><br>
-      <sub><b>Advisor (Dashboard)</b></sub>
-    </td>
-    <td align="center">
-      <img src="public/screenshots/departemen_rekapMahasiswa.png" alt="Department (Rekap Mahasiswa)" width="280"><br>
-      <sub><b>Department (Rekap Mahasiswa)</b></sub>
-    </td>
-    <td align="center">
-      <img src="public/screenshots/operator_progresStudi.png" alt="Operator (Progress Studi)" width="280"><br>
-      <sub><b>Operator (Progress Studi)</b></sub>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="public/screenshots/login.png" alt="Login Page" width="220">
+  <img src="public/screenshots/mahasiswa_dashboard.png" alt="Student Dashboard" width="220">
+  <img src="public/screenshots/dosenwali_dashboard.png" alt="Advisor Dashboard" width="220">
+  <img src="public/screenshots/departemen_rekapMahasiswa.png" alt="Department Rekap Mahasiswa" width="220">
+  <img src="public/screenshots/operator_progresStudi.png" alt="Operator Progress Studi" width="220">
+</p>
 
 ---
 
